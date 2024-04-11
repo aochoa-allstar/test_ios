@@ -1,0 +1,267 @@
+{
+  "snackbar": {
+    "error": {
+      "title": {
+        "local": "Error Local",
+        "server": "Error de Servidor"
+      },
+      "fallback": "Por favor inténtalo de nuevo más tarde"
+    },
+    "success": {
+      "title": "Completado",
+      "create": "Se ha creado tu @model",
+      "update": "El @model ha sido actualizado exitosamente",
+      "delete": "El @model ha sido eliminado exitosamente"
+    },
+    "network": {
+      "title": "Administrador de Red",
+      "slow_connection": "Hemos detectado una conexión lenta, cambiando a modo sin internet",
+      "back_online": "De vuelta al modo en linea",
+      "sync": "Sincronizando datos",
+      "synced": "Datos sincronizados",
+      "sync_failed": "Error al sincronizar datos, intente de nuevo en la pestaña de ajustes",
+      "network_error_title": "Error en sincronización"
+    }
+  },
+  "auth": {
+    "title": "Autenticación",
+    "login": {
+      "submit": "Acceder",
+      "forgot_password": "¿Olvidaste tu contraseña?"
+    },
+    "recover_password": {
+      "submit": "Recuperar Contraseña"
+    },
+    "fields": {
+      "email": "Correo electrónico",
+      "password": "Contraseña",
+      "terms": "Aceptar términos y condiciones"
+    }
+  },
+  "tabs": {
+    "home": "Inicio",
+    "jsas": "JSAs",
+    "account": "Cuenta",
+    "projects": "Proyectos"
+  },
+  "shift": {
+    "title": "Turno",
+    "create": {
+      "submit": "Iniciar Turno"
+    },
+    "fields": {
+      "role": "Rol",
+      "helper_one": "Ayudante Uno",
+      "helper_two": "Ayudante Dos",
+      "helper_three": "Ayudante Tres",
+      "required": "Campo requerido"
+    }
+  },
+  "home": {
+    "title": "Inicio",
+    "project": {
+      "noActiveProject": "No hay proyecto activo",
+      "createProject": "Crear Ticket"
+    },
+    "shift": {
+      "label": "Turno",
+      "state": {
+        "active": "Activo",
+        "inactive": "Inactivo"
+      }
+    },
+    "ticket": {
+      "history": {
+        "title": "Tickets Anteriores",
+        "view_all": "Ver Todos"
+      }
+    }
+  },
+  "tickets": {
+    "title": "Tickets",
+    "noProjectTitle": "Sin nombre de proyecto",
+    "noCustomerName": "Sin nombre de cliente",
+    "noPastTickets": "Sin tickets anteriores",
+    "create": {
+      "submit": "Crear Ticket"
+    },
+    "details": {
+      "title": "Detalles del Ticket",
+      "noDetails": "Sin detalles",
+      "name": "Nombre",
+      "signature": "Firma",
+      "signTicket": "Firmar Ticket",
+      "clear": "Limpiar"
+    },
+    "steps": {
+      "step1": "Información General",
+      "step2": "Salida",
+      "step3": "Llegada",
+      "step4": "Finalizar"
+    },
+    "fields": {
+      "origin": "Origen",
+      "equipment": "Camión",
+      "customer": "Cliente",
+      "project": "Proyecto",
+      "companyMan": "Agente",
+      "departTime": "Hora de Salida",
+      "arriveTime": "Hora de Llegada",
+      "arrivePhoto": "Foto de Llegada",
+      "jsa": "JSA Completado",
+      "noModel": "Sin modelo disponible",
+      "description": "Descripción del trabajo",
+      "workHours": "Horas trabajadas",
+      "required": "Campo requerido",
+      "supervisor": "Supervisor",
+      "supervisorWorkHours": "Horas trabajadas por el supervisor",
+      "additionalEquipment": "Equipo adicional",
+      "helper": "Ayudante del turno actual",
+      "aditionalHelper": "Ayudante adicional",
+      "addHelper": "Agregar ayudante",
+      "materialName": "Descripción del material",
+      "materialQty": "Cantidad",
+      "addMaterial": "Agregar material",
+      "additionalMaterials": "Materiales adicionales"
+    }
+  },
+  "jsas": {
+    "title": "JSAs",
+    "noProject": "Sin proyecto",
+    "noCustomer": "Sin cliente",
+    "noJSAs": "Sin JSAs",
+    "create": {
+      "submit": "Crear JSA",
+      "continue": "Continuar",
+      "cancel": "Cancelar",
+      "clear": "Limpiar",
+      "worker": "Trabajador actual",
+      "helper": "Ayudante: ",
+      "steps": {
+        "step1": "Información General",
+        "step2": "Equipo de seguridad requerido",
+        "step3": "Peligros",
+        "step4": "Permisos requeridos",
+        "step5": "Comprobar y revisar",
+        "step6": "Preocupaciones ambientales",
+        "step7": "Tarea",
+        "step8": "Peligros",
+        "step9": "Controles",
+        "step10": "Acciones y procedimientos recomendados",
+        "step11": "Puntos de reunión",
+        "step12": "Firmas"
+      },
+      "fields": {
+        "jobDescription": "Descripción del Trabajo",
+        "GPS": "GPS",
+        "customer": "Cliente",
+        "project": "Proyecto",
+        "helper_one": "Ayudante Uno",
+        "helper_two": "Ayudante Dos",
+        "helper_three": "Ayudante Tres",
+        "steel_toad_shoes": "Zapatos de seguridad",
+        "hard_hat": "Casco de seguridad",
+        "safety_glasses": "Lentes de seguridad",
+        "h2s_monitor": "Monitor de H2S",
+        "fr_clothing": "Ropa FR",
+        "fall_protection": "Protección contra caídas",
+        "hearing_protection": "Protección auditiva",
+        "respirator": "Respirador",
+        "fail_potential": "Potencial de caída",
+        "overhead_lift": "Levantamiento sobre la cabeza",
+        "h2s": "H2S",
+        "pinch_points": "Puntos de agarre",
+        "slip_trip": "Resbalón/Tropiezo",
+        "sharp_objects": "Objetos afilados",
+        "power_tools": "Herramientas eléctricas",
+        "hot_cold_surface": "Superficies calientes/frías",
+        "pressure": "Presión",
+        "heavy_lifting": "Levantamiento pesado",
+        "weather": "Clima",
+        "flammables": "Inflamables",
+        "chemicals": "Químicos",
+        "confined_spaces_permits": "Permisos para espacios confinados",
+        "hot_work_permit": "Hot work permit",
+        "excavation_trenching": "Excavación/zanja",
+        "one_call_num": "Una llamada #",
+        "lock_out_tag_out": "Bloqueo y etiquetado",
+        "fire_extinguisher": "Extintor de incendios",
+        "inspection_of_equipment": "Inspección de equipo",
+        "msds_review": "Revisión de MSDS",
+        "ladder": "Escalera",
+        "permits": "Permisos",
+        "weather_conditions": "Descripción de Condiciones climáticas",
+        "wind_direction": "Descripción de Dirección del viento",
+        "task": "Tareas",
+        "hazard": "Peligros",
+        "controls": "Controles",
+        "recommended_actions_and_procedures": "Acciones y procedimientos recomendados",
+        "other": "Otro",
+        "required": "Campo requerido"
+      }
+    },
+    "details": {
+      "title": "Detalles de JSA",
+      "noDetails": "Sin detalles",
+      "signJsa": "Firmar JSA",
+      "name": "Nombre"
+    }
+  },
+  "projects": {
+    "noName": "Sin nombre de proyecto",
+    "noInitialDate": "Sin fecha de inicio",
+    "previousProjects": "Proyectos Activos",
+    "noPastProjects": "Sin proyectos Activos",
+    "newProject": "Crear Proyecto",
+    "create": "Crear",
+    "update": "Actualizar Proyecto",
+    "fields": {
+      "customer": "Cliente",
+      "name": "Nombre",
+      "GPS": "GPS",
+      "companyMan": "Agente",
+      "initialDate": "Fecha de inicio",
+      "estimatedCompletion": "Fecha estimada de finalización",
+      "cost": "Costo",
+      "description": "Descripción",
+      "PoAfe": "PO/AFE",
+      "taxState": "Estado impuestos",
+      "type": "Tipo de proyecto",
+      "latitude": "Latitud",
+      "longitude": "Longitud"
+    }
+  },
+  "account": {
+    "title": "Cuenta",
+    "language": "Idioma",
+    "change_language": "Cambiar Idioma",
+    "sign_out": "Cerrar Sesión",
+    "offline_mode": "Modo sin internet",
+    "sync": "Sincronizar datos",
+    "entities": "Entidades pendientes: ",
+    "share": "Compartir copia de base de datos",
+    "share_text": "Se enviará la base de datos a soporte",
+    "delete": "Eliminar base de datos",
+    "delete_text": "Se eliminará la base de datos local",
+    "delete_confirm": "¿Estás seguro que deseas eliminar la base de datos local?",
+    "cancel": "Cancelar",
+    "confirm": "Eliminar",
+    "no_connection": "Sin conexión",
+    "no_connection_sync_text": "Conéctate a una red para sincronizar datos",
+    "no_connection_share_text": "Conéctate a una red para compartir la base de datos",
+    "no_connection_delete_text": "Conéctate a una red para eliminar la base de datos"
+  },
+  "languages": {
+    "en": "Inglés",
+    "es": "Español"
+  },
+  "workerRoles": {
+    "Driver": "Conductor",
+    "Helper": "Ayudante",
+    "Operator": "Operador",
+    "Pusher": "Cargador",
+    "Supervisor": "Supervisor",
+    "Welder": "Soldador",
+    "Mechanic": "Mecánico"
+  }
+}

@@ -1,0 +1,32 @@
+import 'package:get/get.dart';
+import 'package:onax_app/app/data/models/api_response_model.dart';
+import 'package:onax_app/app/data/models/project_model.dart';
+import 'package:onax_app/app/data/repositories/projects_repository.dart';
+
+class ListInspectionsController extends GetxController {
+  final ProjectsRepository projectsRepository = Get.find();
+
+  final projects = Rx<List<Project>>([]);
+
+  @override
+  void onInit() {
+    super.onInit();
+  }
+
+  @override
+  void onReady() async {
+    super.onReady();
+    await fetchInspections();
+  }
+
+  @override
+  void onClose() {
+    super.onClose();
+  }
+
+  Future<void> fetchInspections() async {
+    projects.value = await projectsRepository
+        .getAllProjects()
+        .then((ApiResponse response) => response.data);
+  }
+}

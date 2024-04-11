@@ -1,0 +1,267 @@
+{
+  "snackbar": {
+    "error": {
+      "title": {
+        "local": "Local Error",
+        "server": "Server Error"
+      },
+      "fallback": "Please try again later"
+    },
+    "success": {
+      "title": "Success",
+      "create": "@model has been created",
+      "update": "@model has been saved succesfully",
+      "delete": "@model has been deleted succesfully"
+    },
+    "network": {
+      "title": "Network Manager",
+      "slow_connection": "Slow network detected, switching to offline mode",
+      "back_online": "Back to online mode",
+      "sync": "Syncing data",
+      "synced": "Data synced",
+      "sync_failed": "Data sync failed, please try again later in account tab",
+      "network_error_title": "Sync Error"
+    }
+  },
+  "auth": {
+    "title": "Authentication",
+    "login": {
+      "submit": "Log In",
+      "forgot_password": "Forgot password?"
+    },
+    "recover_password": {
+      "submit": "Recover Password"
+    },
+    "fields": {
+      "email": "Email",
+      "password": "Password",
+      "terms": "Accept terms & conditions"
+    }
+  },
+  "tabs": {
+    "home": "Home",
+    "jsas": "JSAs",
+    "account": "Account",
+    "projects": "Projects"
+  },
+  "shift": {
+    "title": "Shift",
+    "create": {
+      "submit": "Start Shift"
+    },
+    "fields": {
+      "role": "Role",
+      "helper_one": "Helper One",
+      "helper_two": "Helper Two",
+      "helper_three": "Helper Three",
+      "required": "This field is required"
+    }
+  },
+  "home": {
+    "title": "Home",
+    "project": {
+      "noActiveProject": "No active project",
+      "createProject": "Create Ticket"
+    },
+    "shift": {
+      "label": "Shift",
+      "state": {
+        "active": "Active",
+        "inactive": "Inactive"
+      }
+    },
+    "ticket": {
+      "history": {
+        "title": "Previous Tickets",
+        "view_all": "View All"
+      }
+    }
+  },
+  "tickets": {
+    "title": "Tickets",
+    "noProjectTitle": "No project name",
+    "noCustomerName": "No customer name",
+    "noPastTickets": "No past tickets",
+    "create": {
+      "submit": "Create Ticket"
+    },
+    "details": {
+      "title": "Ticket Details",
+      "noDetails": "No details available",
+      "name": "Name",
+      "signature": "Signature",
+      "signTicket": "Sign Ticket",
+      "clear": "Clear"
+    },
+    "steps": {
+      "step1": "General Info",
+      "step2": "Depart",
+      "step3": "Arrive",
+      "step4": "Finish"
+    },
+    "fields": {
+      "origin": "Origin",
+      "equipment": "Truck",
+      "customer": "Customer",
+      "project": "Project",
+      "companyMan": "Company Man",
+      "departTime": "Depart Time",
+      "arriveTime": "Hora de Llegada",
+      "arrivePhoto": "Foto de Llegada",
+      "jsa": "Completed JSA",
+      "noModel": "No model available",
+      "description": "Job Description",
+      "workHours": "Work Hours",
+      "required": "This field is required",
+      "supervisor": "Supervisor",
+      "supervisorWorkHours": "Supervisor Work Hours",
+      "additionalEquipment": "Additional Equipment",
+      "helper": "Current Shift Helper",
+      "aditionalHelper": "Additional Helper",
+      "addHelper": "Add Helper",
+      "materialName": "Material Description",
+      "materialQty": "Quantity",
+      "addMaterial": "Add Material",
+      "additionalMaterials": "Additional Materials"
+    }
+  },
+  "jsas": {
+    "title": "JSAs",
+    "noProject": "No project",
+    "noCustomer": "No customer",
+    "noJSAs": "No JSAs available",
+    "create": {
+      "submit": "Create JSA",
+      "continue": "Continue",
+      "cancel": "Cancel",
+      "clear": "Clear",
+      "worker": "Current Worker",
+      "helper": "Helper: ",
+      "steps": {
+        "step1": "General information",
+        "step2": "Required safety equipment",
+        "step3": "Dangers",
+        "step4": "Required permissions",
+        "step5": "Check and review",
+        "step6": "Environmental concerns",
+        "step7": "Task",
+        "step8": "Hazards",
+        "step9": "Controls",
+        "step10": "Recommended actions and procedures",
+        "step11": "Muster points",
+        "step12": "Signatures"
+      },
+      "fields": {
+        "jobDescription": "Job Description",
+        "GPS": "GPS",
+        "customer": "Customer",
+        "project": "Project",
+        "helper_one": "Helper One",
+        "helper_two": "Helper Two",
+        "helper_three": "Helper Three",
+        "steel_toad_shoes": "Steel Toe Shoes",
+        "hard_hat": "Hard Hat",
+        "safety_glasses": "Safety Glasses",
+        "h2s_monitor": "H2S Monitor",
+        "fr_clothing": "FR Clothing",
+        "fall_protection": "Fall Protection",
+        "hearing_protection": "Hearing Protection",
+        "respirator": "Respirator",
+        "fail_potential": "Fall Potential",
+        "overhead_lift": "Overhead Lift",
+        "h2s": "H2S",
+        "pinch_points": "Pinch Points",
+        "slip_trip": "Slip/Trip",
+        "sharp_objects": "Sharp Objects",
+        "power_tools": "Power Tools",
+        "hot_cold_surface": "Hot/Cold Surface",
+        "pressure": "Pressure",
+        "heavy_lifting": "Heavy Lifting",
+        "weather": "Weather",
+        "flammables": "Flammables",
+        "chemicals": "Chemicals",
+        "confined_spaces_permits": "Confined Space Permit",
+        "hot_work_permit": "Hot Work Permit",
+        "excavation_trenching": "Excavation Trenching",
+        "one_call_num": "One Call #",
+        "lock_out_tag_out": "Lock Out Tag Out",
+        "fire_extinguisher": "Fire Extinguisher",
+        "inspection_of_equipment": "Inspection of Equipment",
+        "msds_review": "MSDS Review",
+        "ladder": "Ladder",
+        "permits": "Permits",
+        "weather_conditions": "Weather Conditions Description",
+        "wind_direction": "Wind Direction Description",
+        "task": "Tasks",
+        "hazard": "Hazard",
+        "controls": "Controls",
+        "recommended_actions_and_procedures": "Recommended Actions and Procedures",
+        "other": "Other",
+        "required": "This field is required"
+      }
+    },
+    "details": {
+      "title": "JSA Details",
+      "noDetails": "No details available",
+      "signJsa": "Sign JSA",
+      "name": "Name"
+    }
+  },
+  "projects": {
+    "noName": "No project name",
+    "noInitialDate": "No initial date",
+    "previousProjects": "Active Projects",
+    "noPastProjects": "No active projects",
+    "newProject": "New Project",
+    "create": "Create",
+    "update": "Update Project",
+    "fields": {
+      "customer": "Customer",
+      "name": "Name",
+      "GPS": "GPS",
+      "companyMan": "Company Man",
+      "initialDate": "Initial date",
+      "estimatedCompletion": "Estimated completion date",
+      "cost": "Cost",
+      "description": "Description",
+      "PoAfe": "PO/AFE",
+      "taxState": "Tax State",
+      "type": "Project type",
+      "latitude": "latitude",
+      "longitude": "longitude"
+    }
+  },
+  "account": {
+    "title": "Account",
+    "language": "Language",
+    "change_language": "Change Language",
+    "sign_out": "Log Out",
+    "offline_mode": "Offline Mode",
+    "sync": "Sync Data",
+    "entities": "Pending Entities: ",
+    "share": "Share Database",
+    "share_text": "Share database with support team",
+    "delete": "Delete Database",
+    "delete_text": "Delete local database",
+    "delete_confirm": "Are you sure you want to delete the database?",
+    "cancel": "Cancel",
+    "confirm": "Delete",
+    "no_connection": "No Connection",
+    "no_connection_sync_text": "Connect to a network to sync data",
+    "no_connection_share_text": "Connect to a network to share the database",
+    "no_connection_delete_text": "Connect to a network to delete the database"
+  },
+  "languages": {
+    "en": "English",
+    "es": "Spanish"
+  },
+  "workerRoles": {
+    "Driver": "Driver",
+    "Helper": "Helper",
+    "Operator": "Operator",
+    "Pusher": "Pusher",
+    "Supervisor": "Supervisor",
+    "Welder": "Welder",
+    "Mechanic": "Mechanic"
+  }
+}

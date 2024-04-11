@@ -1,0 +1,16 @@
+{
+    "id": null,
+    "worker_id": null,
+    "start_time": null,
+    "end_time": null,
+    "equipment_id": null,
+    "helper_id": null,
+    "helper2_id": null,
+    "helper3_id": null,
+    "active": null,
+    "created_at": null,
+    "updated_at": null,
+    "deleted_at": null,
+    "temId": null,
+    "worker_type_id": null
+}

@@ -1,0 +1,19 @@
+{
+    "id": null,
+    "company_id": null,
+    "worker_id": null,
+    "equipment_type_id": null,
+    "number": null,
+    "plate": null,
+    "vin": null,
+    "make": null,
+    "model": null,
+    "year": null,
+    "inactive": null,
+    "rate_type": null,
+    "rate": null,
+    "type": null,
+    "created_at": null,
+    "updated_at": null,
+    "deleted_at": null
+}

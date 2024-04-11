@@ -1,0 +1,1 @@
+enum TicketStatus { created, arrived, departed, finished }
